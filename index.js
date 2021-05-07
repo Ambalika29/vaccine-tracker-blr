@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
-const TELEGRAM_TOKEN = '1803311537:AAFPDy-o9XAe3yUr91hNgDiaEnLtws-Rl2U';
-const CHAT_ID = "501882172";
+const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN;
+const CHAT_ID = process.env.CHAT_ID;
 
 const DISTRICT_ID_BBMP = 294;
 const DISTRICT_ID_BENGALURU_URBAN = 265;
